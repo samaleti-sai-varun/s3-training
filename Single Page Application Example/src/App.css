@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#FAF8F1;
+    color:#08090B;
+}
+
+/* Header */
+#com-name{
+    background:#08090B;
+    color:#CDF22B;
+    padding:25px;
+    text-align:center;
+    letter-spacing:2px;
+}
+
+#com-name h3{
+    font-size:2rem;
+    font-weight:700;
+}
+
+/* Navigation */
+#links{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    padding:20px;
+    background:#FAF8F1;
+    border-bottom:2px solid #08090B;
+}
+
+#links a{
+    text-decoration:none;
+    color:#08090B;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s;
+    padding:8px 16px;
+    border-radius:8px;
+}
+
+#links a:hover{
+    background:#CDF22B;
+    color:#08090B;
+}
+
+/* Main Content */
+#routes{
+    min-height:75vh;
+    padding:50px;
+}
+
+/* Home Page */
+.home{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.home h1{
+    font-size:4rem;
+    margin-bottom:20px;
+    color:#08090B;
+}
+
+.home h4{
+    color:#CDF22B;
+    background:#08090B;
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.home p{
+    line-height:1.8;
+    font-size:18px;
+    color:#333;
+}
+
+/* Forms */
+
+form{
+    max-width:450px;
+    margin:30px auto;
+    background:#FFFFFF;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0 20px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#CDF22B;
+}
+
+/* Buttons */
+
+button,
+input[type="submit"]{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#08090B;
+    color:#CDF22B;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover{
+    background:#CDF22B;
+    color:#08090B;
+}
+
+/* Footer */
+
+#foot{
+    background:#08090B;
+    color:#CDF22B;
+    text-align:center;
+    padding:25px;
+}
+
+#foot h2{
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #CDF22B;
+}
